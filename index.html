@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./res.html" method="get"> <fieldset > <legend ><b> DATE & EMAIL validation</b></legend>
+        <label for="dob"> DOB:</label><br>
+        <input type="text" name="dob" id="dob"  placeholder="YYYY-MM-DD" pattern="[0-9]{4}-0[1-9]|1[0-2]-0[0-9]|1[0-9]|2[0-9]|3[01]" required ><br><br>
+        <label for="mail"> Email:</label><br>
+        <input type="text" name="name" id="mail" placeholder="Enter Email" pattern="[a-z\d]+@[a-z]+\.[a-z]+" title="Email should consists of @ , . followed by sequence of characters aand numbers " required ><br><br>
+    <input type="submit">
+    </fieldset>
+</form> 
+</body>
+</html>
